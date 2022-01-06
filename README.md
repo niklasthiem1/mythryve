@@ -1,1 +1,1 @@
-# fin-plan
+# my-thryve
