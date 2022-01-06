@@ -1,1 +1,1 @@
-# niklas-website
+# fin-plan
