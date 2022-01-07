@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IncomeWrapperComponent } from './income-wrapper/income-wrapper.component';
+import { AnalysisWrapperComponent } from './analysis-wrapper/analysis-wrapper.component';
 
 
 
 @NgModule({
   declarations: [
-    IncomeWrapperComponent
+    AnalysisWrapperComponent
   ],
   imports: [
     CommonModule
   ]
 })
-export class IncomeModule { }
+export class AnalysisModule { }

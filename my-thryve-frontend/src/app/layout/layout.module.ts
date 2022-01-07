@@ -7,9 +7,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule, FlexModule } from '@angular/flex-layout';
 import { AppRoutingModule } from '../app-routing.module';
+import { MenuItemComponent } from './menu-item/menu-item.component';
 
 @NgModule({
-  declarations: [LayoutWrapperComponent],
+  declarations: [LayoutWrapperComponent, MenuItemComponent],
   imports: [
     CommonModule,
     FlexLayoutModule,

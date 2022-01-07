@@ -16,10 +16,13 @@
       style="width: 300px"
     >
       <div fxLayout="column" class="sidebar-item-container">
-        <a mat-button routerLink="/overview">Übersicht</a>
-        <a mat-button routerLink="/income">Einkommen</a>
+        <app-menu-item name="Overview" route="/overview"></app-menu-item>
+        <app-menu-item name="Analysis" route="/analysis"></app-menu-item>
+        <app-menu-item name="Goals" route="/goals"></app-menu-item>
+
+        <!-- <a mat-button routerLink="/income" >Einkommen</a>
         <a mat-button routerLink="/expense">Ausgaben</a>
-        <a mat-button routerLink="/goals">Sparziele</a>
+        <a mat-button routerLink="/goals">Sparziele</a> -->
       </div>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill>
